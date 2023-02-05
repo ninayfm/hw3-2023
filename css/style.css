@@ -1,0 +1,117 @@
+body{
+   line-height: 130%;
+}
+
+
+header, nav{
+    margin: 10px 10px 10px 50px;
+    padding: 10px 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 35px 20px;
+    padding: 16px 12px;
+    background-color: #ffe6c5;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    text-underline-offset: 12px;
+}
+
+
+h1{
+    font-size: 40px;
+    font-family: Merriweather, Anton, "Times New Roman", Arial;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Anton, "Times New Roman", Arial;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 100%;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h1, h2, h3{
+    margin-top: 18px;
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    width: 90%;
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    row-gap: 10px;
+    background-color: #607989;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    border: 1.5px black solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fffaf7;
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: 6px 0px 6px rgba(189, 183, 177, 0.8);
+    }
+
+.grid div:nth-child(3n)  {
+    box-shadow: -6px 0px 6px rgba(189, 183, 177, 0.8);
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: -6px 0px 6px rgba(189, 183, 177, 0.8), 6px 0px 6px rgba(189, 183, 177, 0.8);
+
+}
+    
+
+p + p {
+    text-indent: 20px;
+  }
+  
+p{
+    margin-top: 6px;
+}
+
+.grid ul li{
+    line-height: 100%;
+    list-style-image: url('/images/sketchbook.png');
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+
+main, footer {
+    margin-left: 30px;
+}
